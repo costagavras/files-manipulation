@@ -24,3 +24,5 @@ end
 f = MyFile.new("text.txt")
 puts f.handle.gets
 f.finished
+
+File.open("text.txt").each(",") { |line| puts line}
