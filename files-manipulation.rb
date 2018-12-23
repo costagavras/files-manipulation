@@ -26,3 +26,7 @@ puts f.handle.gets
 f.finished
 
 File.open("text.txt").each(",") { |line| puts line}
+
+File.open("text.txt") do |f|
+  2.times {puts f.gets}
+end
