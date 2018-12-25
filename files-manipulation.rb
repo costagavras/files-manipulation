@@ -41,7 +41,7 @@ File.open("text.txt", "a") do |f|
   f.puts "This a write-file test 2"
 end
 
-#timestamp
+#create file and timestamp
 f = File.new("logfile.txt", "a")
   f.puts Time.now
 f.close

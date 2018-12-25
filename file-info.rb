@@ -10,4 +10,7 @@ class MyFile
   end
 end
 
-puts "It exists!" if File.exist?("logfile.txt")
+if File.exist?("logfile.txt")
+  puts "It exists"
+  puts File.size("logfile.txt")
+end
