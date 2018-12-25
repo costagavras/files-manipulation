@@ -35,3 +35,13 @@
 File.open("text.txt", "w") do |f|
   f.puts "This a write-file test"
 end
+
+#file appenkd
+File.open("text.txt", "a") do |f|
+  f.puts "This a write-file test 2"
+end
+
+#timestamp
+f = File.new("logfile.txt", "a")
+  f.puts Time.now
+f.close
