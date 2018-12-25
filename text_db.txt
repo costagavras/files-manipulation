@@ -1,0 +1,3 @@
+Aaron Twiggs,Webdev,Male,32
+Sharon Biggs,Project Manager,Female,28
+Jim Hacker,Prime-minister,Male,52
