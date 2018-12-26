@@ -49,7 +49,7 @@ def find_person
   puts %Q{Name: #{person["name"]}
   Job: #{person["job"]}
   Gender: #{person["gender"]}
-  Age: #{person["change"]}
+  Age: #{person["age"]}
   }
 
 end
